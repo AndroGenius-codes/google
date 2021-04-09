@@ -1,0 +1,151 @@
+ body{
+     margin: 0;
+     padding: 0;
+  
+ }
+ body, input, button {
+        font-size: 14px;
+        font-family: arial,sans-serif;
+        color: #222;
+    }
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left:auto ;
+}
+
+.Nav-link{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.nav img {
+    height: 20px;
+} 
+.sign-in {
+    background-color: #f5f7fa;
+    border:solid 1px;
+    padding: 0.5rem;
+}
+a:hover{
+    text-decoration: underline;
+}
+section {
+    margin-bottom: 5rem;
+    padding: 4rem;
+}
+
+.logo{
+    width: 272px;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+}
+.form {
+    text-align: center;
+  }
+  
+ #search-form{
+    background: #fff;
+    display: flex;
+    box-shadow: none;
+    border-radius: 26px;
+    z-index: 3;
+    height: 35px;
+    margin: 0 auto;
+    width: 580px;
+    border: 2px solid #f2f2f2;
+ }
+
+ ul{
+     list-style: none;
+ }
+
+ .buttons{
+     width: 500px;
+     margin: auto;
+
+ }
+
+ #googleSearch {
+     margin-left:25%;
+     margin-top: 1rem;
+     padding: 0.5rem;
+     border: none;
+    
+ }
+
+ #imFeelingLucky{
+     display: inline-block;
+     margin-left: 5%;
+     padding: 0.5rem;
+     border: none;
+ }
+
+ .language {
+     width: 500px;
+     margin: auto;
+     margin-top: 2rem;
+     flex-grow: 1;
+     flex-shrink: 0;
+     box-sizing: border-box;
+   }
+
+ .lang {
+    display: inline-block;
+    margin-left: 0.2rem;
+ }
+
+ a {
+     text-decoration: none;
+ }
+ footer {
+    background-color:#f2f2f2;
+}
+
+.top{
+    padding: 15px 30px;
+    border-bottom:1px solid #dadce0;
+
+
+}
+.top p {
+    color: rgba(0,0,0,.54);
+    margin: 0;
+    padding: 0;
+}
+.bottom{
+    justify-content: space-between;
+    display: flex;
+    padding: 2.5rem;
+
+}
+.footer-left a {
+    margin-right: 1em;
+    padding:0;
+    color: rgba(0,0,0,.54) ;
+}
+
+.footer-right a{
+    margin-right: 1em;
+    margin-top: 1em;
+    color: rgba(0,0,0,.54) ;
+    
+}
+.carbon{
+    color: rgba(0,0,0,.54) ;
+}
+
+.footer-items a{
+    display: flex;
+    color: rgba(0,0,0,.54);
+    padding: 2px;
+  
+    font-size: 20px ;
+}
+
